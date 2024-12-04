@@ -2,7 +2,7 @@
 # **Intraoperative Image Registration Tools**
 
 ## **Overview**
-This repository contains three open-source tools for aligning and registering intraoperative photographs captured from different positions and angles. These scripts provide robust methods for automatic and manual image registration, enabling researchers, clinicians, and developers to achieve precise image alignment for various applications, particularly in medical imaging.
+This repository contains three open-source tools for aligning and registering intraoperative photographs captured from different positions and angles. These scripts provide robust methods for automatic and manual image registration, enabling researchers, clinicians, and developers to achieve precise image alignment for various applications, particularly in medical imaging. This tool is useful for identifying where ECoG electrodes are located based on intraoperative photography alone.
 
 Image registration is critical for merging multiple images into a consistent framework, especially when images are captured under varying conditions. These tools offer flexibility with both automated and manual approaches in Python and MATLAB.
 
