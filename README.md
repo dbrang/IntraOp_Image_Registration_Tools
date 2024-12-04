@@ -106,23 +106,25 @@ python IntraOp_Image_Registration_Manual.py <path_to_reference_image> <path_to_t
 
 ## **Examples**
 ### **Input Images**
-- Reference image: `ref_image.jpg`
-- Target image: `target_image.jpg`
+1. **Reference Image (Grid):**
+   ![Reference Image](/Example_Inputs/DSC01756.JPG)
+2. **Target Image (No Grid):**
+   ![Target Image](/Example_Inputs/DSC01761.JPG)
 
 ### **Outputs**
 1. **Registered Image:**
-   ![Registered Image](examples/registered_image.jpg)
+   ![Registered Image](Example_Outputs/Output_MatlabManual/RegisteredNoGrid.jpg)
 
 2. **Matched Points Visualization:**
-   ![Matched Points](examples/matched_points.jpg)
+   ![Matched Points](/Example_Outputs/Output_PythonAutomatic/matches_orb_flann.jpg)
 
 3. **Transition GIF:**
-   ![Transition GIF](examples/transition.gif)
+   ![Transition GIF](Example_Outputs/Output_MatlabManual/Registered_Animation.gif)
 
 ---
 
 ## **License**
-This repository is licensed under the **[MIT License](LICENSE)** with an additional non-commercial clause. You may use, modify, and distribute this software freely for academic and non-commercial purposes. For commercial use, please contact the author.
+This repository is licensed under CC BY-NC 4.0. For commercial use, please contact the author.
 
 ---
 
